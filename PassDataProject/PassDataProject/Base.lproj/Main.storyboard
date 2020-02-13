@@ -47,6 +47,9 @@
                                 <state key="normal" title="Send">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="ejZ-fA-1SV" kind="show" id="waU-2v-lUT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.82219809723175952" green="0.94775964074886965" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -65,6 +68,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="118.29085457271366"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YSn-ci-QCx">
+            <objects>
+                <viewController id="ejZ-fA-1SV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SdR-lQ-bhk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.89375240233459874" green="1" blue="0.80138989309036279" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="iHm-70-qOv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Kee-dC-Qqc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhY-EA-1Da" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="119"/>
         </scene>
     </scenes>
 </document>

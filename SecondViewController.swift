@@ -10,10 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    var lsbel: String!
+    var login: String!
     @IBOutlet weak var label: UILabel!
     @IBAction func sendPressed(button: UIButton) {
         
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print(login as Any)
     }
 
    

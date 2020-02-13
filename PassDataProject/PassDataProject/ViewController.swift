@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let dvc = segue.destination as! SecondViewController
+        guard let dvc = segue.destination as? SecondViewController else {return}
+        dvc.login = loginTextField.text
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

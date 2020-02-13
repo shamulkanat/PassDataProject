@@ -19,7 +19,10 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(login as Any)
-    }
+    
+        guard let login = login else { return }
+        label.text =  "Hello, \(login) "
+        }
 
    
 }

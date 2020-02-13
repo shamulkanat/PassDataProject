@@ -10,6 +10,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    var lsbel: String!
     @IBOutlet weak var label: UILabel!
     @IBAction func sendPressed(button: UIButton) {
         

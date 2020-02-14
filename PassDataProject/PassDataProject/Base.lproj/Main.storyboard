@@ -101,6 +101,7 @@
                                 </state>
                                 <connections>
                                     <action selector="sendPressedWithButton:" destination="ejZ-fA-1SV" eventType="touchUpInside" id="8bf-tW-KPc"/>
+                                    <segue destination="M7K-Av-pTd" kind="unwind" unwindAction="unwindToMainScreenWithSegue:" id="Ip0-fz-aW2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,6 +121,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XhY-EA-1Da" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="M7K-Av-pTd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="820" y="118.29085457271366"/>
         </scene>

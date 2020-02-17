@@ -12,7 +12,9 @@ class SecondViewController: UIViewController {
     
     var login: String!
     @IBOutlet weak var label: UILabel!
+    
     @IBAction func sendPressed(button: UIButton) {
+        performSegue(withIdentifier: "unwindSegue", sender: nil)
         
     }
     
@@ -22,7 +24,7 @@ class SecondViewController: UIViewController {
     
         guard let login = login else { return }
         label.text =  "Hello, \(login) "
-        }
+    }
 
    
 }
